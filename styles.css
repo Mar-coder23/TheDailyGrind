@@ -1,0 +1,232 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Fira Sans Condensed", sans-serif;
+}
+.main-container{
+    height: 100vh;
+    max-width: 100vw;
+}   
+header{
+    height: 5em;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:  2rem;
+    box-shadow:  0px 0px 12px 1px rgb(184, 184, 184);
+    position: fixed;
+    width: 100%;
+}
+header .left-side {
+    height: 2rem;
+}
+header .left-side a img{
+    height: 2rem;
+}
+header .left-side img{
+    height: 20em;
+}
+header .right-side{
+
+}
+header .right-side img{
+    max-width: 2em;
+}
+
+.main{
+    height: 70vh;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(57, 174, 252);
+}
+.main img{
+    height: 20em;
+    margin-top: 3em;
+}
+.main .main-text{
+    font-size: 3em;
+    text-align: center;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    
+}
+.main .main-btn{
+    margin-top: 2em;
+}
+.main .main-btn button{
+    padding: .4em 1.4em;
+    font-size: 1.2em;
+    background-color: rgb(250, 234, 15);
+    border: 2px solid white;
+    border-radius: 25px;
+    color: black;
+    font-weight: 700;
+}
+
+
+.second-section{
+    height: 59vh;
+    max-width: 100%;
+    margin-top: 1em;
+    background-color: rgb(184, 121, 243);
+    
+}
+.second-section-div{
+    padding-top: 2.8em;
+}
+.second-section img{
+    background-size: cover;
+    height: 16em;
+    margin: 0  auto;
+    display: flex;
+    justify-content: center;
+    padding-left: 1.5em;
+}
+.second-section .second-menu-title{
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+}
+.second-section .second-menu-title p{
+    font-size: 3em;
+    font-weight: 600;
+    color: white;
+}
+.second-section .second-menu-slogan{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.second-section .second-menu-slogan p{
+    font-size: 1.6em;
+    font-weight: 300;
+    color: white;
+}
+.second-menu-btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 1.8em;
+}
+.second-menu-btn button{
+    padding: .4em 1.4em;
+    font-size: 1.2em;
+    background-color: rgb(250, 234, 15);
+    border: 2px solid white;
+    border-radius: 25px;
+    color: black;
+    font-weight: 700;
+}
+
+
+
+
+.social-section{
+    height: 22vh;
+    max-width: 100vw;
+    margin-top: 1em;
+    background-color: rgb(57, 174, 252);
+}
+.social-text{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+.social-text p{
+    font-size: 2em;
+    margin-top: 1em;
+    color: white;
+    font-weight: 700;
+}
+.social-icons{
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+    
+}
+span{
+    color: black;
+}
+span .black{
+    color: black;
+}
+.social-icons i{
+    padding: .2em;
+    font-size: 2.4em;
+}
+
+
+
+
+.footer-section{
+    height: 23vh;
+    max-width: 100vw;
+    margin-top: 1em;
+    background-color: rgb(22, 22, 22);
+}
+footer{
+    height: 23vh;
+    max-width: 100vw;
+    font-size: 1.1em;
+}
+footer ul a{
+    text-decoration: none;
+    color: white;
+    list-style-type: none;
+    padding: .6em;
+    padding-top: 1.8em;
+   
+    
+}
+footer ul{
+    display: flex;
+    justify-content: center;
+}
+footer .copyright{
+    display: flex;
+    justify-content: center;
+}
+footer .copyright p{
+    color: white;
+    font-weight: 200;
+}
+footer .copyright img{
+    
+    height: .8em;
+    padding-right: .2em;
+}
+footer .privacy{
+    display: flex;
+    justify-content: center;
+    padding-top: 1em;
+}
+footer .privacy p{
+    color: white;
+    font-weight: 400;
+}
+footer .terms{
+    display: flex;
+    justify-content: center;
+    padding-top: .4em;
+}
+footer .terms p{
+    color: white;
+    font-weight: 400;
+}
+footer .loyalty{
+    display: flex;
+    justify-content: center;
+    padding-top: .4em;
+}
+footer .loyalty p{
+    color: white;
+    font-weight: 400;
+}
+
+
