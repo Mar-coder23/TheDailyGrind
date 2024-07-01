@@ -126,6 +126,110 @@ header .right-side img{
 }
 
 
+.shopNow{
+    height: 590px;
+    max-width: 100%;
+    background-color: rgb(57, 174, 252);
+    margin-top: 1em;
+}
+.third-section-div{
+    display: flex;
+    justify-content: center;
+}
+.third-section-div img{
+    height: 18em;
+    padding-top: 2.8em;
+}
+.third-beans-title{
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+}
+.third-beans-title p{
+    font-size: 3em;
+    font-weight: 600;
+    color: white;
+}
+.third-beans-slogan{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.third-beans-slogan p{
+    font-size: 1.6em;
+    font-weight: 300;
+    color: white;
+}
+.third-beans-btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 1.8em;
+}
+.third-beans-btn button{
+    padding: .4em 1.4em;
+    font-size: 1.2em;
+    background-color: rgb(250, 234, 15);
+    border: 2px solid white;
+    border-radius: 25px;
+    color: black;
+    font-weight: 700;
+}
+
+
+.aboutUs{
+    height: 590px;
+    max-width: 100%;
+    background-color: rgb(184, 121, 243);
+    margin-top: 1em;
+}
+.fourth-section-div{
+    display: flex;
+    justify-content: center;
+}
+.fourth-section-div img{
+    height: 18em;
+    padding-top: 2.8em;
+}
+.fourth-about-title{
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+}
+.fourth-about-title p{
+    font-size: 3em;
+    font-weight: 600;
+    color: white;
+}
+.fourth-about-slogan{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.fourth-about-slogan p{
+    font-size: 1.6em;
+    font-weight: 300;
+    color: white;
+}
+.fourth-about-btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 1.8em;
+}
+.fourth-about-btn button{
+    padding: .4em 1.4em;
+    font-size: 1.2em;
+    background-color: rgb(250, 234, 15);
+    border: 2px solid white;
+    border-radius: 25px;
+    color: black;
+    font-weight: 700;
+}
+
+
+
+
+
+
 
 
 .social-section{
