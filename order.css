@@ -20,6 +20,7 @@ header{
     box-shadow:  0px 0px 12px 1px rgb(184, 184, 184);
     position: fixed;
     width: 100%;
+    z-index: 2;
 }
 header .left-side {
     height: 2rem;
@@ -37,10 +38,10 @@ header .right-side img{
     max-width: 2em;
 }
 
-.background{
+#background{
    height: 1900px;
    max-width: 100%;
-   background-color: rgb(31, 31, 31);
+   background-color: rgb(2, 171, 250);
    padding-top: 6em;
    
 }
