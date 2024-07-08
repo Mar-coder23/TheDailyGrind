@@ -31,9 +31,7 @@ header .left-side a img{
 header .left-side img{
     height: 20em;
 }
-header .right-side{
 
-}
 header .right-side img{
     max-width: 2em;
 }
@@ -61,7 +59,7 @@ header .right-side img{
 }
 .button-menu .coffeeBtn{
     background-color: black;
-    color: white;
+    color: rgb(15, 212, 247);
 }
 .coffee{
     height: 160px;
@@ -105,10 +103,15 @@ header .right-side img{
     height: 8em;
     padding: 1em;
 }
+.coffee-first{
+    display: flex;
+    justify-content: space-between;
+}
 .coffee-second{
     height: 160px;
     max-width: 100%;
     display: flex;
+    justify-content: space-between;
 }
 
 
