@@ -38,119 +38,76 @@ header .right-side img{
     max-width: 2em;
 }
 
-#background{
-   height: 1900px;
-   max-width: 100%;
-   background-color: rgb(2, 171, 250);
-   padding-top: 6em;
-   
-}
-.menu-text{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.menu-text p{
-    font-size: 2.6em;
-    color: white;
-    text-transform: uppercase;
-    font-weight: 500;
-    border-bottom: 2px solid white;
-}
-.coffee-title{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-.coffee-title p{
-    text-transform: uppercase;
-    padding-top: .4em;
-    font-weight: 400;
-    font-size: 1.2em;
-    color: rgb(245, 196, 36);
-}
-.first-item{
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-.first-item .first-item-title{
-    display: flex;
-    justify-content: center;
-    font-size: 2em;
-    font-weight: 400;
-    color: rgb(245, 196, 36);
+.menu{
+    height: 1000px;
+    max-width: 100%;
+    background-color: rgb(255, 255, 255);
     
 }
-.first-item .first-item-desc{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    font-size: 1.2em;
-    font-weight: 400;
-    padding-top: .4em;
-}
-.second-item{
-    color: white;
+.button-menu{
+    padding-top: 6em;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.button-menu button{
+    padding: .4em 1.1em;
+    font-size: 1.1em;
+    border-radius: 25px;
+    border: none;
+    background-color: transparent;
+    color: rgb(75, 75, 75);
+    margin: .3em;  
+}
+.button-menu .coffeeBtn{
+    background-color: black;
+    color: white;
+}
+.coffee{
+    height: 160px;
+    max-width: 100%;
+    margin-top: 1em;
+    display: flex;
+}
+.menu-row{
+    margin: 1em;
+    display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
-.second-item img{
-    width: 16em;
-    padding-top: 3em;
-    display: flex;
-    justify-content: center;
+.title p{
+    font-size: 1.4em;
+    font-weight: 600;
 }
-.second-item .second-item-title{
-    display: flex;
-    justify-content: center;
-    font-size: 2em;
-    font-weight: 400;
-    color: rgb(245, 196, 36);
-    padding-top: 1em;
+.desc{
+    font-size: 1em;
 }
-.second-item .second-item-desc{
+.price{
+    font-weight: 500;
+}
+.image{
+    display: inline-block;
+    background-color: rgb(76, 196, 252);
+    margin: 1em;
+}
+.image img{
+    height: 8em;   
+}
+.hot-latte-img img{
+    height: 8em;
+    padding: 1em;
+}
+.cappuccino-img img{
+    height: 8em;
+    padding: 1em;
+}
+.americano-img img{
+    height: 8em;
+    padding: 1em;
+}
+.coffee-second{
+    height: 160px;
+    max-width: 100%;
     display: flex;
-    justify-content: center;
-    text-align: center;
-    font-size: 1.2em;
-    font-weight: 400;
-    padding-top: .4em;
 }
 
-.third-item{
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-.third-item img{
-    width: 26em;
-    padding-top: 3em;
-    display: flex;
-    justify-content: center;
-    padding-left: 1em;
-}
-.third-item .third-item-title{
-    display: flex;
-    justify-content: center;
-    font-size: 2em;
-    font-weight: 400;
-    color: rgb(245, 196, 36);
-    padding-top: 1em;
-}
-.third-item .third-item-desc{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    font-size: 1.2em;
-    font-weight: 400;
-    padding-top: .4em;
-}
