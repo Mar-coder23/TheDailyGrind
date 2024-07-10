@@ -24,17 +24,14 @@ header{
 }
 header .left-side {
     height: 2rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 header .left-side p{
-    font-family: "Boogaloo", sans-serif;
     font-size: 2.2em;
+    font-family: "Boogaloo", sans-serif;
 }
-
 header .right-side img{
     max-width: 2em;
+    cursor: pointer;
 }
 
 .menu{
@@ -58,7 +55,7 @@ header .right-side img{
     color: rgb(75, 75, 75);
     margin: .3em;  
 }
-.button-menu .coffeeBtn{
+.button-menu .bakedBtn{
     background-color: black;
     color: white;
 }

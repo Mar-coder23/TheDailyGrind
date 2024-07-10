@@ -24,14 +24,9 @@ header{
 header .left-side {
     height: 2rem;
 }
-header .left-side a img{
-    height: 2rem;
-}
-header .left-side img{
-    height: 20em;
-}
-header .right-side{
-
+header .left-side p{
+    font-family: "Boogaloo", sans-serif;
+    font-size: 2.2em;
 }
 header .right-side img{
     max-width: 2em;
